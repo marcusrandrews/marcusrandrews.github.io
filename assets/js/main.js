@@ -1,7 +1,7 @@
 // recaptcha
 function recaptcha_callback(){
   alert("callback working");
-  $('.button').prop("disabled", false);
+  $('.bttn').prop("disabled", false);
 }
 
 // Initialize Firebase
