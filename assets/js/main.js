@@ -1,19 +1,3 @@
-$( '#form-submitter' ).click(function(){
-  var $captcha = $( '#recaptcha' ),
-      response = grecaptcha.getResponse();
-  
-  if (response.length === 0) {
-    $( '.msg-error').text( "reCAPTCHA is mandatory" );
-    if( !$captcha.hasClass( "error" ) ){
-      $captcha.addClass( "error" );
-    }
-  } else {
-    $( '.msg-error' ).text('');
-    $captcha.removeClass( "error" );
-    alert( 'reCAPTCHA marked' );
-  }
-})
-
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyBazlSZG6CwuByfO8WsX2GlwDSSoHZG8E0",
