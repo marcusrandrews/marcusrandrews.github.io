@@ -433,13 +433,3 @@ a#mailer {
     width: 60vh;
   }
 }
-
-msg-error {
-  color: #c65848;
-  font-size: 1.5vh;
-}
-.g-recaptcha.error {
-  border: solid 2px #c64848;
-  padding: .2em;
-  width: 19em;
-}
