@@ -52,4 +52,5 @@ function saveMessage(name, email, phone, address, details){
 }
 
 function recaptchaCheaker() {
-  alert('yo)
+  alert('yo')
+}
