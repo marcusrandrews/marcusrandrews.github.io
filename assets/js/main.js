@@ -50,7 +50,3 @@ function saveMessage(name, email, phone, address, details){
     details: details
   })
 }
-
-function recaptchaCheaker() {
-  alert('yo')
-}
