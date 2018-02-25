@@ -1,3 +1,9 @@
+// recaptcha
+function recaptcha_callback(){
+  alert("callback working");
+  $('.button').prop("disabled", false);
+}
+
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyBazlSZG6CwuByfO8WsX2GlwDSSoHZG8E0",
