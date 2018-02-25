@@ -50,10 +50,3 @@ function saveMessage(name, email, phone, address, details){
     details: details
   })
 }
-
-
-function recaptcha_callback() {
-  $('#form-submitter').removeAttr('disabled')
-}
-
-
