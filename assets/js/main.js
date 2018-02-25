@@ -1,4 +1,4 @@
-$( '#btn-validate' ).click(function(){
+$( '#form-submitter' ).click(function(){
   var $captcha = $( '#recaptcha' ),
       response = grecaptcha.getResponse();
   
