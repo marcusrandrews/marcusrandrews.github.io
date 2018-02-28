@@ -72,13 +72,12 @@
               <h2><i class="fas fa-comment"></i></i>Online Quote Form</h2>
               <div class="divbar"><img src="images/divbar.png" alt="Dividing Bar"></div>
               <p><span class="bold">Get in touch with us for a quick online quote</span> and let us know about your damaged item(s). We will reply promptly with a down to earth quote and any worthwhile information to help conduct the repairs effectively.<br></p>
-              <form action="https://formspree.io/info@actplasticrepairs.com.au" method="POST">
-                <input type="hidden" name="_next" value="https://www.actplasticrepairs.com.au" />
+<form id="contactForm">
               <!-- Name -->
                 <div class="group">
                   <div class="input-field">
-                    <input id="full_name" type="text" required><span class="highlight"></span><span class="bar"></span>
-                    <label for="full_name">Your Name *</label>
+                    <input id="name" type="text" required><span class="highlight"></span><span class="bar"></span>
+                    <label for="name">Your Name *</label>
                   </div>
                 </div>
               <!-- email -->
@@ -111,9 +110,9 @@
                 </div>
               <!-- reCAPTCHA and submit -->
                 <div class="recapmit">
-                  <!--<div class="g-recaptcha" data-sitekey="6LdmxUUUAAAAAAaBrLLaewGMbbmyoeLvR20SYeYP"></div>-->
+                  <!--<div class="g-recaptcha" data-callback="recaptcha_callback" data-sitekey="6LcLYkgUAAAAAE6MqNIaNjF8fVq8A5hlwi9H4czm"></div>-->
                   <div class="form-submit-button">
-                  <button  id="form-submitter" class="bttn"type="submit" name="button">Submit</button>
+                  <button id="form-submitter" class="bttn" type="submit" name="button">Submit</button>
                   </div>
                 </div>
               </form>
