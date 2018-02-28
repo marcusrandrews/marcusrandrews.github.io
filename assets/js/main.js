@@ -1,8 +1,3 @@
-// recaptcha
-function recaptcha_callback(){
-  alert("callback working");
-  $('.bttn').prop("disabled", false);
-}
 
 // Initialize Firebase
 var config = {
