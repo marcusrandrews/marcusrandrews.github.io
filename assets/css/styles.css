@@ -70,10 +70,9 @@ a#quote-btn {
 a#call:hover, a#quote-btn:hover, a#call-bottom:hover, a#mailer:hover {
   filter: brightness(70%);
 }
-p#tcs {
+a#tcs {
   color: white;
-  text-decoration: none;
-  text-size: 2vh;
+  font-size: 2vh;
 }
 .content {
   position: relative;
